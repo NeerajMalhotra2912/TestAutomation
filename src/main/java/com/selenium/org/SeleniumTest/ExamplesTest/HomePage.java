@@ -49,7 +49,7 @@ public class HomePage {
         driver = new ChromeDriver();
         HomePage homePage = new HomePage();
         homePage.doSetUp();
-//        homePage.swipDown();
+        homePage.swipDown();
         homePage.countLinks();
 
         homePage.closeConnection();
