@@ -5,8 +5,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import javax.swing.*;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -18,7 +16,6 @@ public class HomePage {
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/");
         driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
-
     }
 
     void countLinks(){
